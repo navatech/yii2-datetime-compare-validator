@@ -1,5 +1,5 @@
 {
-  "name": "nepstor/yii2-datetime-compare-validator",
+  "name": "navatech/yii2-datetime-compare-validator",
   "description": "Yii2 validator for compare datetime.",
   "keywords": [
     "yii2",
