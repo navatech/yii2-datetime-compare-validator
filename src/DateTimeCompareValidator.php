@@ -5,11 +5,12 @@
 * @license http://opensource.org/licenses/BSD-3-Clause
 */
 
-namespace nepstor\validators;
+namespace navatech\validators;
 
 use DateTime;
 use Yii;
 use yii\base\Exception;
+use yii\base\InvalidConfigException;
 use yii\helpers\Html;
 use yii\validators\Validator;
 

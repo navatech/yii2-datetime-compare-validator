@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "nepstor\\validators\\": "src"
+      "navatech\\validators\\": "src"
     }
   }
 }
