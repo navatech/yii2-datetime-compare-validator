@@ -8,11 +8,11 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run
 ```sh
-php composer.phar require nepstor/yii2-datetime-compare-validator "^2.0"
+php composer.phar require navatech/yii2-datetime-compare-validator "^2.0"
 ```
 or add
 ```json
-"nepstor/yii2-datetime-compare-validator": "^2.0"
+"navatech/yii2-datetime-compare-validator": "^2.0"
 ```
 to the require section of your `composer.json` file.
 
@@ -22,7 +22,7 @@ Using
 public function rules()
 {
     return [
-        ['begin', nepstor\validators\DateTimeCompareValidator::className(), 'compareAttribute' => 'end', 'format' => 'Y-m-d', 'operator' => '>=']
+        ['begin', navatech\validators\DateTimeCompareValidator::className(), 'compareAttribute' => 'end', 'format' => 'Y-m-d', 'operator' => '>=']
     ];
 }
 ```
