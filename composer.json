@@ -8,10 +8,12 @@
 		"validator",
 		"extension"
 	],
-	"homepage" : "https://github.com/nepstor/yii2-datetime-compare-validator",
+	"homepage" : "https://navatech.vn",
+	"support" : {
+		"source" : "https://github.com/navatech/yii2-datetime-compare-validator"
+	},
 	"type" : "yii2-extension",
-	"license" : "BSD-3-Clause",
-	"minimum-stability" : "stable",
+	"license" : "MIT",
 	"authors" : [
 		{
 			"name" : "Nikita Krytskiy"
