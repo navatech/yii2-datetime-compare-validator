@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2014 Nikita Krytskiy
  * @license   http://opensource.org/licenses/BSD-3-Clause
  */
-namespace navatech\validators;
+namespace navatech\validators\assets;
 
 use yii\web\AssetBundle;
 
@@ -17,7 +17,7 @@ class DateTimeCompareValidatorAsset extends AssetBundle {
 	/**
 	 * @inheritdoc
 	 */
-	public $sourcePath = '@vendor/navatech/yii2-datetime-compare-validator/src/assets';
+	public $sourcePath = '@vendor/navatech/yii2-datetime-compare-validator/src/web';
 
 	/**
 	 * @inheritdoc
@@ -36,6 +36,6 @@ class DateTimeCompareValidatorAsset extends AssetBundle {
 	 */
 	public $depends = [
 		'yii\validators\ValidationAsset',
-		'navatech\base\assets\MomentJsAsset',
+		'navatech\validators\assets\MomentJsAsset',
 	];
 }

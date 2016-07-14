@@ -7,6 +7,7 @@
 namespace navatech\validators;
 
 use DateTime;
+use navatech\validators\assets\DateTimeCompareValidatorAsset;
 use Yii;
 use yii\base\Exception;
 use yii\base\InvalidConfigException;
